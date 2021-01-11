@@ -10,7 +10,7 @@ Caso não apareça, digite o código com emmet e em seguinda aperte ctrl+barra
                                                                                                                                                     
 <img  src="https://media.giphy.com/media/Dex51nonSOTlXJDAvG/giphy.gif" width="700">
 
-Child: >
+Filhos: >
 ```bash
 - nav>ul>li
 
@@ -20,7 +20,7 @@ Child: >
     </ul>
 </nav>
 ```
-Sibling: +
+Irmãos: +
 ```bash
 - div+p+bq
 
@@ -28,7 +28,7 @@ Sibling: +
 <p></p>
 <blockquote></blockquote>
 ```
-Climb-up: ^
+Escalas: ^
 ```bash
 - div+div>p>span+em^bq
 
@@ -46,7 +46,7 @@ Climb-up: ^
 </div>
 <blockquote></blockquote>
 ```
-Grouping: ()
+Grupos: ()
 ```bash
 - div>(header>ul>li*2>a)+footer>p
 
@@ -78,7 +78,7 @@ Grouping: ()
     <p></p>
 </footer>
 ```
-Multiplication: *
+Multiplicações: *
 ```bash
 - ul>li*5
 
@@ -90,7 +90,7 @@ Multiplication: *
     <li></li>
 </ul>
 ```
-Item numbering: $
+Numeração de itens e multiplicação: $
 ```bash
 
 - ul>li.item$*5
@@ -139,7 +139,7 @@ Item numbering: $
     <li class="item7"></li>
 </ul>
 ```
-ID and CLASS attributes
+ID e CLASS 
 ```bash
 - #header
 
@@ -157,21 +157,7 @@ ID and CLASS attributes
 
 <p class="class1 class2 class3"></p>
 ```
-Custom attributes
-```bash
-- p[title="Hello world"]
-
-<p title="Hello world"></p>
-
-- td[rowspan=2 colspan=3 title]
-
-<td rowspan="2" colspan="3" title=""></td>
-
-- [a='value1' b="value2"]
-
-<div a="value1" b="value2"></div>
-```
-Text: {}
+Textos: {}
 ```bash
 - a{Click me}
 
@@ -181,7 +167,7 @@ Text: {}
 
 <p>Click <a href="">here</a> to continue</p>
 ```
-Implicit tag names
+Nomes de tags
 ```bash 
 
 - .class
@@ -267,7 +253,7 @@ input:image, input:i
 input:button, input:b
 <input type="button" value="" />
 ```
-Button
+Botões 
 ```bash
 button:submit, button:s, btn:s
 <button type="submit"></button>
@@ -278,7 +264,7 @@ button:reset, button:r, btn:r
 button:disabled, button:d, btn:d
 <button disabled="disabled"></button>
 ```
-Others
+Outros
 ```bash
 dl>dt+dd
 <dl>
@@ -297,4 +283,15 @@ table>tr>td
         <td></td>
     </tr>
 </table>
+- p[title="Hello world"]
+
+<p title="Hello world"></p>
+
+- td[rowspan=2 colspan=3 title]
+
+<td rowspan="2" colspan="3" title=""></td>
+
+- [a='value1' b="value2"]
+
+<div a="value1" b="value2"></div>
 ```
