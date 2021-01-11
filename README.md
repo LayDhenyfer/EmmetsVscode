@@ -1,6 +1,14 @@
 # EmmetsVscode
 Atalhos para melhorar sua produtividade 
 
+Para usar o emmet no vscode digite o código e aperte enter, quando aparecer uma opção como essa.  
+
+<a href="https://ibb.co/QKCxy43"><img src="https://i.ibb.co/S3dZFz4/emmet.png" alt="emmet" border="0"></a>
+
+Caso não apareça, digite o código com emmet e em seguinda aperte ctrl+barra
+
+                                                                                                                                                    
+<img  src="https://media.giphy.com/media/Dex51nonSOTlXJDAvG/giphy.gif" width="700">
 
 Child: >
 ```bash
